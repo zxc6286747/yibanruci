@@ -7,6 +7,7 @@
 		<action name="helloWorldAction"
 			class="com.hxy.HelloWorldAction">
 			<result name="toWelcome">/content/welcome.jsp</result>
+			<result name="input">/content/login.jsp</result>
 		</action>
 	</package>
 </struts>

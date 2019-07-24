@@ -8,6 +8,12 @@ public class HelloWorldAction extends ActionSupport {
 	private String password;
 
 	private String submitFlag;
+	
+	public void validate() {
+		if (account != "hxy") {
+			this.addFieldError("accout", "账号不能为空");
+		}
+	}
 
 	public String getAccount() {
 		return account;
